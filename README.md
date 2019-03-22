@@ -18,6 +18,22 @@ Example:
 
 https://mysite.com/index.php/rest/V1/categories/2/store/1/url
 
+## Installation Instruction
+https://magefan.com/blog/how-to-install-magento-2-extension-2
+
+## Support
+If you have any issues, please [contact us](mailto:support@magefan.com)
+then if you still need help, open a bug report in GitHub's
+[issue tracker](https://github.com/magefan/module-blog/issues).
+
+
+## Need More Features?
+Please contact us to get a quote
+https://magefan.com/contact
+
+## License
+The code is licensed under [EULA](https://magefan.com/end-user-license-agreement).
+
 ## Other Magefan Extensions That Can Be Installed Via Composer
   * [Magento 2 Blog Extension](https://magefan.com/magento2-blog-extension)
   * [Magento 2 Auto Currency Switcher Extension](https://magefan.com/magento-2-currency-switcher-auto-currency-by-country)
