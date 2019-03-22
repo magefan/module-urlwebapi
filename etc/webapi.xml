@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Magefan (support@magefan.com). All rights reserved.
+ * Please visit Magefan.com for license details (https://magefan.com/end-user-license-agreement).
+ */
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <!-- Example
+     https://mysite.com/index.php/rest/V1/products/sku/24-MB01/store/1/url
+     -->
+    <route method="GET" url="/V1/products/sku/:productSku/store/:storeId/url">
+        <service class="Magefan\UrlWebapi\Api\GetProductUrlBySkuManagementInterface" method="getProductUrlBySku"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <!-- Example
+     https://mysite.com/index.php/rest/V1/products/id/1/store/1/url
+     -->
+    <route method="GET" url="/V1/products/id/:productId/store/:storeId/url">
+        <service class="Magefan\UrlWebapi\Api\GetProductUrlByIdManagementInterface" method="getProductUrlById"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <!-- Example
+     https://mysite.com/index.php/rest/V1/categories/2/store/1/url
+     -->
+    <route method="GET" url="/V1/categories/:categoryId/store/:storeId/url">
+        <service class="Magefan\UrlWebapi\Api\GetCategoryUrlByIdManagementInterface" method="getCategoryUrlById"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

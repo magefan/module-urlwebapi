@@ -1,0 +1,17 @@
+{
+    "name": "magefan/module-urlwebapi",
+    "description": "",
+    "require": {
+        "magefan/module-community" : ">=2.0.4"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magefan\\UrlWebapi\\": ""
+        }
+    }
+}
