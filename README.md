@@ -1,4 +1,4 @@
-# Module add aditional web api to the Magento 2 store
+# Module add additional web API to the Magento 2 store
 
 1. Get Product URL By SKU
 
