@@ -1,4 +1,5 @@
 # Module add additional web API to the Magento 2 store
+<img width="150" height="100" src="https://magefan.com/media/wysiwyg/made_in_ukraine.jpg">
 
 1. Get Product URL By SKU
 
